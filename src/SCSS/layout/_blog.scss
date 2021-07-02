@@ -1,0 +1,10 @@
+.blog {
+
+  &__header {
+    @include smallHeader;
+
+    &::after {
+      @include borderBottomGray;
+    }
+  }
+}

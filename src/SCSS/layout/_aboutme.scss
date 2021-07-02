@@ -1,0 +1,13 @@
+.about-me {
+  margin: 0 auto;
+  margin-top: 3rem;
+
+  &__header {
+    @include smallHeader;
+
+    &::after {
+      @include borderBottomGray;
+    }
+  }
+
+}
