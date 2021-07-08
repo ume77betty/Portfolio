@@ -1,5 +1,6 @@
 import Navigation from "../AboutMe/Navigation";
 import Footer from "../Footer/Footer";
+import ShoppingCart from "../../img/project__ShoppingCart.jpg";
 import DailyPoem from '../../img/project__DailyPoem.jpg';
 import Natours from '../../img/project__Natours.jpg';
 import HouseHotel from '../../img/project__HouseHotel.jpg';
@@ -11,6 +12,13 @@ const Projects = () => {
 
 
   const porjectList = [
+    {
+      projectName: 'Shopping-Cart',
+      projectImg: ShoppingCart,
+      projectGithub: `https://github.com/ume77betty/Simple-Shopping-Cart-with-React-Hooks`,
+      projectDemo: `https://ume77betty.github.io/Simple-Shopping-Cart-with-React-Hooks/`,
+      projectDesc: `Simple shopping cart to practice data flow and map function.`
+    },
     {
       projectName: 'Daily-Poem',
       projectImg: DailyPoem,
